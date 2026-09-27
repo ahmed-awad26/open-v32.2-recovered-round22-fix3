@@ -1,0 +1,20 @@
+OpenContacts v0.0.28 - ChatGPT implementation notes
+
+Highlights
+- Settings refactored into a clean navigation-driven structure.
+- Security screen rebuilt around biometric lock, device credential fallback, resume lock, timeout, and PIN.
+- Backup & Export screen now uses SAF folders and visible progress states.
+- Import & Export screen cleaned up, with corrected export direction icons and persistent result/progress UI.
+- Preferences screen added with discrete trash retention slider and contact/call behavior toggles.
+- Notifications & Incoming Calls screen added for popup/privacy/sound/vibration behavior.
+- Incoming call detection added via ACTION_PHONE_STATE_CHANGED receiver with in-app popup and notification fallback.
+- Missed call styling unified with red emphasis across call surfaces.
+- Blocked-state styling unified across details, list surfaces, and settings.
+- Contacts search now runs inline in the same screen instead of opening a separate search surface.
+- Contact details header changed away from the old bright dark-mode blue.
+- Contact photo editing is now restricted to Edit flow instead of direct view-mode tapping.
+- Version updated to 0.0.28 / v0.0.28.
+
+Important
+- This repository snapshot does not include a working Gradle wrapper binary setup in the execution environment, so this revision was not fully assemble-verified locally here.
+- Incoming call quick actions try to answer/decline through TelecomManager when the platform and permission allow it; otherwise notification/in-app dismissal fallback still works.

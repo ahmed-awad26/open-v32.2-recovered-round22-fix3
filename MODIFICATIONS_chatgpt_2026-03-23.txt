@@ -1,0 +1,20 @@
+Applied project changes:
+- New slim A-Z + # fast scroller with active-letter sync on manual scroll and bubble only while dragging.
+- Full device call log loading (removed 100-item cap), normalization, grouping by matched contact or normalized number.
+- Contact details now include call history with Show more / Show less.
+- Tags and Folder sections added to contact details with direct editing.
+- QR Code action added to contact details with Share / Save / Expand.
+- Contact block/unblock state added at vault-contact level with confirmation.
+- Blocked contacts list added to Settings with direct Unblock.
+- Top search bar made broadly clickable.
+- Bottom navigation now uses Favorites instead of Search.
+- Dial pad bottom sheet now opens fully with skip partially expanded behavior.
+- Photo save/update path preserves tags/folder/block state; no side auto-tag changes were added.
+
+Note:
+- This archive did not include a real Gradle wrapper (gradlew is a placeholder and gradle/wrapper is missing), so full assemble verification could not be run inside this environment.
+
+
+Build fix pass after CI errors:
+- Fixed Kotlin smart-cast issue for contact.folderName in ContactDetailsRoute by storing it in a local val before rendering.
+- Promoted CallLogItem and CallLogGroup visibility to public so StateFlow exposures in ContactsViewModel and ContactDetailsViewModel compile cleanly across module boundaries.

@@ -1,0 +1,10 @@
+Performance / ANR mitigation changes
+
+- Deferred full call-log loading until Call log tab is opened.
+- Prevented duplicate concurrent call-log refreshes.
+- Moved call-log querying to Dispatchers.IO.
+- Moved call-log grouping/matching work to background dispatcher.
+- Replaced O(n*m) contact matching with map-based lookup by id / normalized number.
+- Moved contact photo decoding off the main thread.
+- Added sampled bitmap decoding to avoid loading full-resolution images for list/detail avatars.
+- Reduced extra list work with derived active scroller letter and contentType hints.

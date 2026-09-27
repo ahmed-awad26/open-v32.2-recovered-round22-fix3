@@ -1,0 +1,6 @@
+- Improved Groups/Folders workflow with selection-based removal inside items
+- Added bulk folder assignment from selected contacts
+- Added QR save-to-gallery and hardened QR share dialog
+- Improved dial pad delete button and layout
+- Added browser handoff buttons for Drive/OneDrive linking in Backup
+- Added hashtag metadata extraction from contact displayName during save/classification
