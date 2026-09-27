@@ -1,0 +1,11 @@
+<resources>
+    <string name="contacts_search_placeholder">Search contacts, numbers, tags, folders</string>
+    <string name="contacts_tab_contacts">Contacts</string>
+    <string name="contacts_tab_call_log">Recents</string>
+    <string name="no_contacts_yet">No contacts yet</string>
+    <string name="no_contacts_yet_subtitle">Add a private contact, import a CSV or VCF file, or bring in all your phone contacts.</string>
+    <string name="no_recent_calls">No recent calls</string>
+    <string name="no_recent_calls_subtitle">Grant call-log permission to show the full device call history, grouped by contact or normalized number.</string>
+    <string name="clear_search">Clear search</string>
+    <string name="menu">Menu</string>
+</resources>

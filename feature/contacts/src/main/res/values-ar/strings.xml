@@ -1,0 +1,11 @@
+<resources>
+    <string name="contacts_search_placeholder">ابحث في جهات الاتصال والأرقام والوسوم والمجلدات</string>
+    <string name="contacts_tab_contacts">جهات الاتصال</string>
+    <string name="contacts_tab_call_log">الأخيرة</string>
+    <string name="no_contacts_yet">لا توجد جهات اتصال بعد</string>
+    <string name="no_contacts_yet_subtitle">أضف جهة اتصال خاصة أو استورد ملف CSV أو VCF أو اجلب جهات اتصال الهاتف.</string>
+    <string name="no_recent_calls">لا توجد مكالمات حديثة</string>
+    <string name="no_recent_calls_subtitle">امنح إذن سجل المكالمات لعرض السجل الكامل مجمعًا حسب جهة الاتصال أو الرقم.</string>
+    <string name="clear_search">مسح البحث</string>
+    <string name="menu">القائمة</string>
+</resources>
